@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   const newArray = strangeArray.filter(element => typeof element === "string");
 
   //Toma le newArray y los orrdena alfabeticamente -toLowerCase convierte strings en minuscula y --localCompaere  compara los strings
-  const newArrayalf = newArray.sort((a, b) => a.toLocaleLowerCase().localCompare(b.toLowerCase()));
+  const newArrayalf = newArray.sort((a, b) => a.toLocaleLowerCase().localeCompare(b.toLowerCase()));
 
 
   //muestra la lista lista ordenada
